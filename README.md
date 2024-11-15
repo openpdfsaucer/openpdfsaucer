@@ -10,6 +10,7 @@ OpenPDFSaucer is a combined fork of OpenPDF version 2.0.3 (forked from iText), F
 [![License (LGPL version 2.1)](https://img.shields.io/badge/license-GNU%20LGPL%20version%202.1-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-2.1)
 [![License (MPL)](https://img.shields.io/badge/license-Mozilla%20Public%20License-yellow.svg?style=flat-square)](http://opensource.org/licenses/MPL-2.0)
 [![CodeQL](https://github.com/openpdfsaucer/openpdfsaucer/actions/workflows/codeql.yml/badge.svg)](https://github.com/openpdfsaucer/openpdfsaucer/actions/workflows/codeql.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/fa63ee335ecb4225808d1b4f3e4d6392)](https://app.codacy.com/gh/openpdfsaucer/openpdfsaucer/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 
 ## Features
