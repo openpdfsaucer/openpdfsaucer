@@ -3,7 +3,7 @@
 OpenPDFSaucer is a Java library for creating and editing PDF files with a LGPL and MPL open source
 license. OpenPDF is the LGPL/MPL open source successor of iText.
 
-OpenPDFSaucer is a fork of OpenPDF version 2.0.3, FlyingSaucer and PDFRenderer. 
+OpenPDFSaucer is a fork of OpenPDF version 2.0.3, FlyingSaucer v9.11.0 and PDFRenderer. 
 
 ![CI](https://github.com/openpdfsaucer/openpdfsaucer/actions/workflows/maven.yml/badge.svg)
 [![License (LGPL version 2.1)](https://img.shields.io/badge/license-GNU%20LGPL%20version%202.1-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-2.1)
@@ -25,10 +25,13 @@ Some of the features of OpenPDF include:
 * Table Support: The library facilitates the creation of tables in PDF documents.
 * Encryption: You can encrypt PDF documents for security purposes.
 * Page Layout: OpenPDF allows you to set the page size, orientation, and other layout properties.
+* Flying Saucer is a pure-Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
 
 
 
 ## License
+OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version 2.1. This is the same license as the source code it is forked from: OpenPDF and Flying Saucer.
+
 
 [GNU Lesser General Public License (LGPL), Version 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1)
 
@@ -40,7 +43,7 @@ Some of the features of OpenPDF include:
 
 You can find also a nice explanation of these licenses under https://itsfoss.com/open-source-licenses-explained/
 
-We want OpenPDF to consist of source code which is consistently licensed with the LGPL and MPL
+We want OpenPDFSaucer to consist of source code which is consistently licensed with the LGPL and MPL
 licences only. This also means that any new contributions to the project must have a dual LGPL and
 MPL license only.
 
