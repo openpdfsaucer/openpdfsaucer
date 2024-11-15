@@ -142,8 +142,6 @@ public class PDFDecoder {
                             }
                         }
                         streamBuf = dict.getDecrypter().decryptBuffer(cfName, null, streamBuf);
-                    } else if (enctype.equals("JBIG2Decode")) {
-                        streamBuf = JBig2Decode.decode(dict, streamBuf, spec.params[i]);
                     } else {
                         throw new PDFParseException("Unknown coding method:" + spec.ary[i].getStringValue());
                     }
