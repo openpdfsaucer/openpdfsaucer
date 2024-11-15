@@ -3,6 +3,9 @@ Pdf-renderer - the OpenPDFSaucer-fork
 
 This is a fork from https://github.com/katjas/PDFrenderer
 
+Another candidate for forking:
+https://github.com/LoboEvolution/LoboPDF
+
 ----
 
 
