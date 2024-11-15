@@ -5,15 +5,9 @@ license. OpenPDF is the LGPL/MPL open source successor of iText.
 
 OpenPDFSaucer is a fork of OpenPDF, FlyingSaucer and PDFRenderer. 
 
-![CI](https://github.com/LibrePDF/OpenPDF/actions/workflows/maven.yml/badge.svg)
+![CI](https://github.com/openpdfsaucer/openpdfsaucer/actions/workflows/maven.yml/badge.svg)
 [![License (LGPL version 2.1)](https://img.shields.io/badge/license-GNU%20LGPL%20version%202.1-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-2.1)
 [![License (MPL)](https://img.shields.io/badge/license-Mozilla%20Public%20License-yellow.svg?style=flat-square)](http://opensource.org/licenses/MPL-2.0)
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/791d40a437f64c77a0a802ae597a960c)](https://app.codacy.com/gh/LibrePDF/OpenPDF/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/791d40a437f64c77a0a802ae597a960c)](https://app.codacy.com/gh/LibrePDF/OpenPDF/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
-[![CodeQL](https://github.com/LibrePDF/OpenPDF/actions/workflows/codeql.yml/badge.svg)](https://github.com/LibrePDF/OpenPDF/actions/workflows/codeql.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LibrePDF_OpenPDF&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LibrePDF_OpenPDF)
-[![CodeFactor](https://www.codefactor.io/repository/github/librepdf/openpdf/badge)](https://www.codefactor.io/repository/github/librepdf/openpdf)
 
 
 Please note: Repositories like Maven Central and others may take a few days to update.
