@@ -55,11 +55,11 @@ OpenPDF had a dual LGPL / MPL license, this fork will use the LGPL license speci
 ## Contributing
 
   Please send all pull requests. Make sure that your contributions can be
-released with a dual LGPL and MPL license. In particular, pull requests to the OpenPDF project must
+released with a LGPL license. In particular, pull requests to the OpenPDF project must
 only contain code that you have written yourself. GPL or AGPL licensed code will not be acceptable.
 
-To contribute code to the OpenPDF project, your GitHub account must contain your real name, so that
-we can verify your identity. This is to ensure the trust, security and integrity of the OpenPDF
+To contribute code to the OpenPDFSaucer project, your GitHub account must contain your real name, so that
+we can verify your identity. This is to ensure the trust, security and integrity of the OpenPDFSaucer
 project, and to prevent security incidents such as the "XZ Utils backdoor". Knowning the real name
 of the contributors will also identify and prevent conflict of interests.
 
