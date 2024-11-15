@@ -5,7 +5,7 @@
 
   <groupId>com.github.openpdfsaucer</groupId>
   <artifactId>openpdfsaucer-parent</artifactId>
-  <version>2.0.0</version> 
+  <version>2.0.1-SNAPSHOT</version> 
   <packaging>pom</packaging>
 
   <!-- please run mvn tidy:pom once in a while -->
@@ -52,11 +52,13 @@
   </modules>
   <!-- Distribution config from http://central.sonatype.org/pages/apache-maven.html#distribution-management-and-authentication -->
   <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/openpdfsaucer/openpdfsaucer</url>
+    </repository>
   </distributionManagement>
+
 
   <properties>
     <java-module-name>com.github.openpdfsaucer.openpdfsaucer.parent</java-module-name>
@@ -346,7 +348,7 @@
         <artifactId>maven-repository-plugin</artifactId>
         <version>${maven-repository-plugin.version}</version>
       </plugin>
-      <plugin>
+      <!--<plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
         <version>${nexus-staging-maven-plugin.version}</version>
@@ -356,7 +358,7 @@
           <nexusUrl>https://oss.sonatype.org/</nexusUrl>
           <autoReleaseAfterClose>false</autoReleaseAfterClose>
         </configuration>
-      </plugin>
+      </plugin>-->
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
