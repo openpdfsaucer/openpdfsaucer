@@ -53,13 +53,6 @@ We want OpenPDFSaucer to consist of source code which is consistently licensed w
 licences only. This also means that any new contributions to the project must have a dual LGPL and
 MPL license only.
 
-## Documentation
-
-- [Examples](pdf-toolbox/src/test/java/com/lowagie/examples)
-- [JavaDoc](https://javadoc.io/doc/com.github.librepdf/openpdf/latest/index.html)
-- [Tutorial](https://github.com/LibrePDF/OpenPDF/wiki/Tutorial) (wiki, work in progress)
-- [Migration from iText, TIFF support](https://github.com/LibrePDF/OpenPDF/wiki/Migrating-from-iText-2-and-4)
-
 
 ## Contributing
 
