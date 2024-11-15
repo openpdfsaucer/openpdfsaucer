@@ -78,9 +78,7 @@ More details: [Contributing](CONTRIBUTING.md)
 
 We have now different versions of OpenPDF, and they require different versions of Java:
 
-- The 2.0.x Branch requires Java 17 or later.
-- OpenPDF versions 2.0.x: We are working on modernizing the OpenPDF library for Java
-  17+.
+- OpenPDFSaucer requires Java 21. This project is focusing on modernization and using modern technologies and APIs.
 
 ### Supporting complex glyph substitution/ Ligature substitution
 
@@ -105,5 +103,5 @@ See: [wiki](https://github.com/LibrePDF/OpenPDF/wiki/Accents,-DIN-91379,-non-Lat
 - Please refer to our [pom.xml](pom.xml) to see what version is needed.
 
 ## Credits
-
-Please see [Contributors.md](Contributors.md).
+- OpenPDF, FlyingSaucer and PDF renderer contributors.
+- Please see [Contributors.md](Contributors.md).
