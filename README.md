@@ -1,7 +1,10 @@
 # OpenPDFSaucer is an open source Java library for PDF files
 
 OpenPDFSaucer is a Java library for creating and editing PDF files with a LGPL and MPL open source
-license. OpenPDF is the LGPL/MPL open source successor of iText.
+license.  OpenPDFSaucer is a pure-Java library for rendering arbitrary well-formed XML (or XHTML) 
+using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
+
+OpenPDF is the LGPL/MPL open source successor of iText.
 
 OpenPDFSaucer is a fork of OpenPDF version 2.0.3, FlyingSaucer v9.11.0 and PDFRenderer. 
 
