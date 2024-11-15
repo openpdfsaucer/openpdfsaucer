@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>openpdfsaucer</artifactId>
-
+    <name>OpenPDF - PDF editing and reading</name>
     <properties>
         <java-module-name>com.github.librepdf.openpdfsaucer</java-module-name>
     </properties>

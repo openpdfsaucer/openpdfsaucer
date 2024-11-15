@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>openpdfsaucer-fonts-extra</artifactId>
+  <name>OpenPDF - Fonts</name>
 
   <properties>
     <java-module-name>com.github.librepdf.pdfFontsExtra</java-module-name>

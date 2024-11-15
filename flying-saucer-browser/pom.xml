@@ -13,7 +13,7 @@
 
   <packaging>jar</packaging>
 
-  <name>Flying Saucer Examples</name>
+  <name>Flying Saucer Web browser</name>
   <description>Misc. Flying Saucer example code.  It is not deployed with a release.</description>
 
   <licenses>
