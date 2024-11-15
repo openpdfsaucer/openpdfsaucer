@@ -38,25 +38,17 @@ Some of the features of OpenPDFSaucer include:
 ## License
 OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version 2.1. This is the same license as the source code it is forked from: OpenPDF and Flying Saucer.
 
-
 [GNU Lesser General Public License (LGPL), Version 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1)
 
 > For a short explanation see https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License
 
-[Mozilla Public License Version 2.0](http://www.mozilla.org/MPL/2.0/)
-
-> For a short explanation see https://en.wikipedia.org/wiki/Mozilla_Public_License
-
-You can find also a nice explanation of these licenses under https://itsfoss.com/open-source-licenses-explained/
-
-We want OpenPDFSaucer to consist of source code which is consistently licensed with the LGPL and MPL
-licences only. This also means that any new contributions to the project must have a dual LGPL and
-MPL license only.
+We want OpenPDFSaucer to consist of source code which is consistently licensed with the LGPL 
+licences only. This also means that any new contributions to the project must have a dual LGPL license only.
 
 
 ## Contributing
 
-Release the hounds!  Please send all pull requests. Make sure that your contributions can be
+  Please send all pull requests. Make sure that your contributions can be
 released with a dual LGPL and MPL license. In particular, pull requests to the OpenPDF project must
 only contain code that you have written yourself. GPL or AGPL licensed code will not be acceptable.
 
@@ -76,7 +68,7 @@ More details: [Contributing](CONTRIBUTING.md)
 
 ### Required Dependencies
 
-We have now different versions of OpenPDF, and they require different versions of Java:
+We have now different versions of OpenPDFSaucer, and they require different versions of Java:
 
 - OpenPDFSaucer requires Java 21. This project is focusing on modernization and using modern technologies and APIs.
 
