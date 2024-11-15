@@ -92,21 +92,6 @@ We have now different versions of OpenPDF, and they require different versions o
 - OpenPDF versions 2.0.x: We are working on modernizing the OpenPDF library for Java
   17+.
 
-### UTF-8 Fonts
-
-As of 1.3.21 the UTF-8 Liberation fonts moved to its own module, to reduce the size of the OpenPDF
-jar. If you want to use the bundled UTF-8 fonts, please add the following dependency to your project
-and use the class `org.librepdf.openpdf.fonts.Liberation`.
-
-```xml
-
-<dependency>
-  <groupId>com.github.librepdf</groupId>
-  <artifactId>openpdf-fonts-extra</artifactId>
-  <version>${openpdf.version}</version>
-</dependency>
-```
-
 ### Supporting complex glyph substitution/ Ligature substitution
 
 OpenPDF supports glyph substitution which is required for correct rendering of fonts ligature substitution requirements.
