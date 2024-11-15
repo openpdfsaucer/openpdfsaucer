@@ -439,6 +439,11 @@
             </goals>
           </execution>
         </executions>
+        <configuration>
+          <excludes>
+            <exclude>com/lowagie/text/TextElementArray</exclude>
+          </excludes>
+        </configuration>
       </plugin>
     </plugins>
   </build>
