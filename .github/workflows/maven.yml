@@ -10,7 +10,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build with Java 17 and 21.
+    name: Build with Java
     strategy:
       matrix:
         java-version: [17, 21]
