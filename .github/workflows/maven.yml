@@ -10,14 +10,17 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build with Java 17
+    name: Build with Java 17 and 21.
+    strategy:
+      matrix:
+        java-version: [17, 21]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
-      - name: Check maven version
+          java-version: ${{ matrix.java-version }}
+      - name: Check Maven Version
         run: mvn -v; echo "** ls **"; pwd && ls -l
 
       - name: Build with Maven
