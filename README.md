@@ -30,8 +30,8 @@ Some of the features of OpenPDFSaucer include:
 * Render PDF files as images using PDFrenderer.
 
 # OpenPDFSaucer 2.0.0
-Get OpenPDFSaucer here: https://github.com/openpdfsaucer/openpdfsaucer/releases/tag/2.0.0
-It is also available as a Maven module dependency: https://github.com/orgs/openpdfsaucer/packages?repo_name=openpdfsaucer
+Get OpenPDFSaucer here: https://github.com/openpdfsaucer/openpdfsaucer/releases/tag/2.0.0  
+It is also available as a Maven module dependency: https://github.com/orgs/openpdfsaucer/packages?repo_name=openpdfsaucer  
 
 ## OpenPDFSaucer has these modules:
 * [Openpdf](openpdf) OpenPDF is a free Java library for creating and editing PDF files.
