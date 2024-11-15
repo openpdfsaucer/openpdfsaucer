@@ -1,8 +1,8 @@
 # OpenPDFSaucer is an open source Java library for PDF files
 
-- OpenPDFSaucer is a Java library for creating and editing PDF files. - fork from OpenPDF.
-- OpenPDFSaucer is a Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images. - fork from FlyingSaucer.
-- OpenPDFSaucer is a Java library for rendering PDF documents to the screen using Java2D. - fork from PDFrenderer.
+- OpenPDFSaucer (OpenPDF) is a Java library for creating and editing PDF files..
+- OpenPDFSaucer (FlyingSaucer) is a Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
+- OpenPDFSaucer (PDFrenderer) is a Java library for rendering PDF documents to the screen using Java2D.
 
 OpenPDFSaucer is a fork of OpenPDF version 2.0.3 (forked from iText), FlyingSaucer v9.11.0 and PDFRenderer. 
 
@@ -11,11 +11,9 @@ OpenPDFSaucer is a fork of OpenPDF version 2.0.3 (forked from iText), FlyingSauc
 [![License (MPL)](https://img.shields.io/badge/license-Mozilla%20Public%20License-yellow.svg?style=flat-square)](http://opensource.org/licenses/MPL-2.0)
 
 
-Please note: Repositories like Maven Central and others may take a few days to update.
-
 ## Features
 
-Some of the features of OpenPDF include:
+Some of the features of OpenPDFSaucer include:
 
 * Creating PDFs: You can use OpenPDF to create new PDF documents from scratch.
 * Manipulating Existing PDFs: OpenPDF allows you to modify existing PDF documents by adding or removing pages, modifying
@@ -26,7 +24,8 @@ Some of the features of OpenPDF include:
 * Table Support: The library facilitates the creation of tables in PDF documents.
 * Encryption: You can encrypt PDF documents for security purposes.
 * Page Layout: OpenPDF allows you to set the page size, orientation, and other layout properties.
-* Flying Saucer is a pure-Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
+* Rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
+* Render PDF files as images.
 
 ## OpenPDFSaucer has these modules:
 * [Openpdf](openpdf) OpenPDF is a free Java library for creating and editing PDF files.
