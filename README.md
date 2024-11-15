@@ -26,16 +26,16 @@ Some of the features of OpenPDFSaucer include:
 * Table Support: The library facilitates the creation of tables in PDF documents.
 * Encryption: You can encrypt PDF documents for security purposes.
 * Page Layout: OpenPDF allows you to set the page size, orientation, and other layout properties.
-* Rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
-* Render PDF files as images.
+* Rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images, using Flying Saucer.
+* Render PDF files as images using PDFrenderer.
 
 ## OpenPDFSaucer has these modules:
 * [Openpdf](openpdf) OpenPDF is a free Java library for creating and editing PDF files.
-* [Openpdf-fonts-extra](openpdf-fonts-extra) Fonts for OpenPDF
 * [Flying-saucer-core](flying-saucer-core) Flying Saucer is a Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
 * [Flying-saucer-pdf](flying-saucer-pdf) Flying Saucer PDF rendering of HTML.
 * [Flying-saucer-browser](flying-saucer-browser) - a web browser in Java. 
 * [PDFrenderer](PDFrenderer) Java library for rendering PDF documents to the screen using Java2D.
+* [Openpdf-fonts-extra](openpdf-fonts-extra) Fonts for OpenPDF
 
 ## License
 OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version 2.1. This is the same license as the source code it is forked from: OpenPDF and Flying Saucer.
@@ -45,8 +45,8 @@ OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version
 > For a short explanation see https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License
 
 We want OpenPDFSaucer to consist of source code which is consistently licensed with the LGPL 
-licences only. This also means that any new contributions to the project must have a dual LGPL license only.
-
+licences only. This also means that any new contributions to the project must have a LGPL license only.
+OpenPDF had a dual LGPL / MPL license, this fork will use the LGPL license specifically.
 
 ## Contributing
 
