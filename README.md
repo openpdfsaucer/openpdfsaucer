@@ -30,7 +30,13 @@ Some of the features of OpenPDF include:
 * Page Layout: OpenPDF allows you to set the page size, orientation, and other layout properties.
 * Flying Saucer is a pure-Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
 
-
+## OpenPDFSaucer has these modules:
+* [Openpdf](openpdf)
+* [Openpdf-fonts-extra](openpdf-fonts-extra)
+* [Flying-saucer-core](flying-saucer-core)
+* [Flying-saucer-pdf](flying-saucer-pdf)
+* [Flying-saucer-browser](flying-saucer-browser)
+* [PDFrenderer](PDFrenderer)
 
 ## License
 OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version 2.1. This is the same license as the source code it is forked from: OpenPDF and Flying Saucer.
