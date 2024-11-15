@@ -103,7 +103,7 @@ public class Document implements DocListener {
 
     // membervariables
     private static final String VERSION_PROPERTIES = "com/lowagie/text/version.properties";
-    private static final String OPENPDF = "OpenPDF";
+    private static final String OPENPDF = "OpenPDFSaucer";
     private static final String RELEASE;
     private static final String OPENPDF_VERSION;
     /**
