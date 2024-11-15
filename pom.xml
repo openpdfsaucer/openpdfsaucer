@@ -311,7 +311,7 @@
           </filesets>
         </configuration>
       </plugin>
-      <!-- Set java to 17 -->
+      <!-- Set java version -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -463,7 +463,7 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>${maven.compiler.plugin.version}</version>
             <configuration>
-              <release>17</release>
+              <release>${java.version}</release>
             </configuration>
             <executions>
               <execution>
