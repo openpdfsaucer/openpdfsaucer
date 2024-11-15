@@ -46,7 +46,7 @@ public class CleanMetaDataTest {
 
         try (PdfReader r = new PdfReader(baos.toByteArray())) {
             final String producer = r.getInfo().get("Producer");
-            org.assertj.core.api.Assertions.assertThat(producer).startsWith("OpenPDF ");
+            org.assertj.core.api.Assertions.assertThat(producer).startsWith("OpenPDFSaucer ");
         }
 
     }
