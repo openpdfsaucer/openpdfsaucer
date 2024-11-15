@@ -32,7 +32,7 @@
     <dependency>
       <groupId>com.github.openpdfsaucer</groupId>
       <artifactId>openpdfsaucer</artifactId>
-      <version>${openpdf.version}</version>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 
