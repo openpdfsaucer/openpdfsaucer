@@ -59,7 +59,7 @@
   </distributionManagement>
 
   <properties>
-    <java-module-name>com.github.librepdf.openpdf.parent</java-module-name>
+    <java-module-name>com.github.openpdfsaucer.openpdfsaucer.parent</java-module-name>
     <java.version>21</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -71,7 +71,7 @@
     <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
     <maven-gpg-plugin.version>3.2.4</maven-gpg-plugin.version>
     <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
-    <maven-javadoc-plugin.version>3.7.0</maven-javadoc-plugin.version>
+    <maven-javadoc-plugin.version>3.11.1</maven-javadoc-plugin.version>
     <maven-jxr-plugin.version>3.6.0</maven-jxr-plugin.version>
     <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
     <maven-repository-plugin.version>2.4</maven-repository-plugin.version>
@@ -456,19 +456,15 @@
           </reportSet>
         </reportSets>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jxr-plugin</artifactId>
-        <version>${maven-jxr-plugin.version}</version>
-      </plugin>
+
     </plugins>
   </reporting>
 
   <profiles>
     <profile>
-      <id>jdk17-plus</id>
+      <id>jdk21-plus</id>
       <activation>
-        <jdk>[17,)</jdk>
+        <jdk>[21,)</jdk>
       </activation>
       <dependencyManagement>
         <dependencies>
@@ -490,12 +486,12 @@
             </configuration>
             <executions>
               <execution>
-                <id>compile-java-17</id>
+                <id>compile-java-21</id>
                 <goals>
                   <goal>compile</goal>
                 </goals>
                 <configuration>
-                  <release>17</release>
+                  <release>21</release>
                   <compileSourceRoots>
                     <compileSourceRoot>${project.basedir}/src/main/java</compileSourceRoot>
                   </compileSourceRoots>
