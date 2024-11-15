@@ -1,12 +1,10 @@
 # OpenPDFSaucer is an open source Java library for PDF files
 
-OpenPDFSaucer is a Java library for creating and editing PDF files with a LGPL and MPL open source
-license.  OpenPDFSaucer is a pure-Java library for rendering arbitrary well-formed XML (or XHTML) 
-using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
+- OpenPDFSaucer is a Java library for creating and editing PDF files.  
+- OpenPDFSaucer is a Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
+- OpenPDFSaucer is a Java library for rendering PDF documents to the screen using Java2D.
 
-OpenPDF is the LGPL/MPL open source successor of iText.
-
-OpenPDFSaucer is a fork of OpenPDF version 2.0.3, FlyingSaucer v9.11.0 and PDFRenderer. 
+OpenPDFSaucer is a fork of OpenPDF version 2.0.3 (forked from iText), FlyingSaucer v9.11.0 and PDFRenderer. 
 
 ![CI](https://github.com/openpdfsaucer/openpdfsaucer/actions/workflows/maven.yml/badge.svg)
 [![License (LGPL version 2.1)](https://img.shields.io/badge/license-GNU%20LGPL%20version%202.1-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-2.1)
@@ -31,12 +29,12 @@ Some of the features of OpenPDF include:
 * Flying Saucer is a pure-Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
 
 ## OpenPDFSaucer has these modules:
-* [Openpdf](openpdf) OpenPDF is a free Java library for creating and editing PDF files
+* [Openpdf](openpdf) OpenPDF is a free Java library for creating and editing PDF files.
 * [Openpdf-fonts-extra](openpdf-fonts-extra)
 * [Flying-saucer-core](flying-saucer-core) Flying Saucer is a pure-Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
 * [Flying-saucer-pdf](flying-saucer-pdf)
 * [Flying-saucer-browser](flying-saucer-browser)
-* [PDFrenderer](PDFrenderer) Java library for rendering PDF documents to the screen using Java2D 
+* [PDFrenderer](PDFrenderer) Java library for rendering PDF documents to the screen using Java2D.
 
 ## License
 OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version 2.1. This is the same license as the source code it is forked from: OpenPDF and Flying Saucer.
