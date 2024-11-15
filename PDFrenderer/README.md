@@ -1,5 +1,10 @@
-Pdf-renderer improvement branch
+Pdf-renderer - the OpenPDFSaucer-fork
 =============================
+
+This is a fork from https://github.com/katjas/PDFrenderer
+
+----
+
 
 This is a fork of [pdf-renderer](http://java.net/projects/pdf-renderer) (covered by the LGPL-2.1 license) for improvement purposes.
 
