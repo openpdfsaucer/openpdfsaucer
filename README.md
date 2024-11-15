@@ -1,8 +1,8 @@
 # OpenPDFSaucer is an open source Java library for PDF files
 
-- OpenPDFSaucer is a Java library for creating and editing PDF files.  
-- OpenPDFSaucer is a Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
-- OpenPDFSaucer is a Java library for rendering PDF documents to the screen using Java2D.
+- OpenPDFSaucer is a Java library for creating and editing PDF files. - fork from OpenPDF.
+- OpenPDFSaucer is a Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images. - fork from FlyingSaucer.
+- OpenPDFSaucer is a Java library for rendering PDF documents to the screen using Java2D. - fork from PDFrenderer.
 
 OpenPDFSaucer is a fork of OpenPDF version 2.0.3 (forked from iText), FlyingSaucer v9.11.0 and PDFRenderer. 
 
