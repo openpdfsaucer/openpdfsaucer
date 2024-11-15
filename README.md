@@ -31,6 +31,7 @@ Some of the features of OpenPDFSaucer include:
 
 # OpenPDFSaucer 2.0.0
 Get OpenPDFSaucer here: https://github.com/openpdfsaucer/openpdfsaucer/releases/tag/2.0.0  
+
 It is also available as a Maven module dependency: https://github.com/orgs/openpdfsaucer/packages?repo_name=openpdfsaucer  
 
 ## OpenPDFSaucer has these modules:
