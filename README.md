@@ -43,7 +43,7 @@ It is also available as a Maven module dependency: https://github.com/orgs/openp
 * [Openpdf-fonts-extra](openpdf-fonts-extra) Fonts for OpenPDF
 
 ## License
-OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version 2.1. This is the same license as the source code it is forked from: OpenPDF and Flying Saucer.
+OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version 2.1. This is the same license as the source code it is forked from: OpenPDF, Flying Saucer and PDFrenderer.
 
 [GNU Lesser General Public License (LGPL), Version 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1)
 
