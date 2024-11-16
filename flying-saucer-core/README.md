@@ -1,4 +1,4 @@
-# FlyingSaucer
+# FlyingSaucer Core
 
 Flying Saucer is a Java-based library designed to render XML and XHTML content using CSS 2.1 for layout and formatting. The flying-saucer-core module contains the essential rendering and layout code, enabling output to various formats such as Swing panels, PDFs, and images. 
 
