@@ -1,5 +1,7 @@
-Pdf-renderer - the OpenPDFSaucer-fork
-=============================
+Pdf-renderer
+============
+
+Pdf-renderer is a Java library for rendering PDF files.
 
 This is a fork from https://github.com/katjas/PDFrenderer
 
