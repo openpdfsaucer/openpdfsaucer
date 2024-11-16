@@ -42,6 +42,9 @@ It is also available as a Maven module dependency: https://github.com/orgs/openp
 * [PDFrenderer](PDFrenderer) Java library for rendering PDF documents to the screen using Java2D.
 * [Openpdf-fonts-extra](openpdf-fonts-extra) Fonts for OpenPDF
 
+# Documentation
+* [JavaDoc](https://openpdfsaucer.github.io/openpdfsaucer/)
+
 ## License
 OpenPDFSaucer is licended with GNU Lesser General Public License (LGPL), Version 2.1. This is the same license as the source code it is forked from: OpenPDF, Flying Saucer and PDFrenderer.
 
