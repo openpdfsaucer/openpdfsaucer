@@ -252,18 +252,6 @@
   </dependencies>
 
   <build>
-    <pluginManagement>
-      <plugins>
-
-        <plugin>
-          <!-- maven-site-plugin -->
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>${maven-site-plugin.version}</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-
     <plugins>
       <!-- Clean also test results -->
       <plugin>
