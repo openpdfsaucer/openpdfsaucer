@@ -87,7 +87,7 @@
     <pdftest.version>1.9.1</pdftest.version>
     <error_prone.version>2.36.0</error_prone.version>
 
-    <bouncycastle.version>1.79</bouncycastle.version>
+    <bouncycastle.version>1.80</bouncycastle.version>
     <commons-io.version>2.18.0</commons-io.version>
     <dom4j.version>2.1.4</dom4j.version>
     <fop.version>2.10</fop.version>
