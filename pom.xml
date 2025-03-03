@@ -115,7 +115,7 @@
     <jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>
     <junit.version>5.12.0</junit.version>
     <mockito4.version>4.11.0</mockito4.version>
-    <mockito5.version>5.15.2</mockito5.version>
+    <mockito5.version>5.16.0</mockito5.version>
   </properties>
 
   <dependencyManagement>
