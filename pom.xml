@@ -54,13 +54,13 @@
     <module>PDFrenderer</module>
   </modules>
   <!-- Distribution config from http://central.sonatype.org/pages/apache-maven.html#distribution-management-and-authentication -->
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub OWNER Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/openpdfsaucer/openpdfsaucer</url>
-    </repository>
-  </distributionManagement>
+<!--  <distributionManagement>-->
+<!--    <repository>-->
+<!--      <id>github</id>-->
+<!--      <name>GitHub OWNER Apache Maven Packages</name>-->
+<!--      <url>https://maven.pkg.github.com/openpdfsaucer/openpdfsaucer</url>-->
+<!--    </repository>-->
+<!--  </distributionManagement>-->
 
 
   <properties>
