@@ -489,17 +489,14 @@
             <version>${maven-javadoc-plugin.version}</version>
             <configuration>
               <source>${java.version}</source>
+              <!-- Add these lines -->
               <detectJavaApiLink>false</detectJavaApiLink>
               <doclint>none</doclint>
               <quiet>true</quiet>
-              <!-- This line ensures all dependencies are on the classpath -->
-              <additionalDependencies>
-                <additionalDependency>
-                  <groupId>io.github.openpdfsaucer</groupId>
-                  <artifactId>flying-saucer-core</artifactId>
-                  <version>${project.version}</version>
-                </additionalDependency>
-              </additionalDependencies>
+              <!-- This is important - tells javadoc to only use compiled classes -->
+              <includeDependencySources>false</includeDependencySources>
+              <!-- Prevent Maven from trying to download your own artifacts -->
+              <detectOfflineLinks>false</detectOfflineLinks>
             </configuration>
             <executions>
               <execution>
