@@ -489,6 +489,17 @@
             <version>${maven-javadoc-plugin.version}</version>
             <configuration>
               <source>${java.version}</source>
+              <detectJavaApiLink>false</detectJavaApiLink>
+              <doclint>none</doclint>
+              <quiet>true</quiet>
+              <!-- This line ensures all dependencies are on the classpath -->
+              <additionalDependencies>
+                <additionalDependency>
+                  <groupId>io.github.openpdfsaucer</groupId>
+                  <artifactId>flying-saucer-core</artifactId>
+                  <version>${project.version}</version>
+                </additionalDependency>
+              </additionalDependencies>
             </configuration>
             <executions>
               <execution>
@@ -496,7 +507,6 @@
                 <goals>
                   <goal>jar</goal>
                 </goals>
-                <!-- Disable doclint checks to build it under java 8 javadoc -->
                 <configuration>
                   <additionalJOptions>-Xdoclint:none</additionalJOptions>
                 </configuration>
