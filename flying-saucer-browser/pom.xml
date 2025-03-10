@@ -9,6 +9,10 @@
     <version>2.0.2</version>
   </parent>
 
+  <properties>
+    <maven.javadoc.skip>true</maven.javadoc.skip>
+  </properties>
+
   <artifactId>flying-saucer-examples</artifactId>
 
   <packaging>jar</packaging>
