@@ -29,8 +29,8 @@ Some of the features of OpenPDFSaucer include:
 * Rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images, using Flying Saucer.
 * Render PDF files as images using PDFrenderer.
 
-# OpenPDFSaucer 2.0.0
-Get OpenPDFSaucer here: https://github.com/openpdfsaucer/openpdfsaucer/releases/tag/2.0.0  
+# OpenPDFSaucer 2.0.2
+Get OpenPDFSaucer here: https://github.com/openpdfsaucer/openpdfsaucer/releases/tag/2.0.2  
 
 It is also available as a Maven module dependency: https://github.com/orgs/openpdfsaucer/packages?repo_name=openpdfsaucer  
 
