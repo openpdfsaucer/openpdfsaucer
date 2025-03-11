@@ -5,7 +5,7 @@
 
   <groupId>io.github.openpdfsaucer</groupId>
   <artifactId>openpdfsaucer-parent</artifactId>
-  <version>2.0.2</version>
+  <version>2.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <pluginRepositories>
@@ -19,7 +19,7 @@
   <!-- please run mvn tidy:pom once in a while -->
   <name>OpenPDFSaucer - Free and Open PDF saucer toolkit library</name>
   <description>Open and Free PDF saucer toolkit library for reading, editing and rendering PDF files.</description>
-  <url>https://github.com/openpdfsaucer/openpdfsaucer/tree/main</url>
+  <url>https://github.com/openpdfsaucer</url>
 
   <licenses>
     <license>
