@@ -19,7 +19,7 @@
   <!-- please run mvn tidy:pom once in a while -->
   <name>OpenPDFSaucer - Free and Open PDF saucer toolkit library</name>
   <description>Open and Free PDF saucer toolkit library for reading, editing and rendering PDF files.</description>
-  <url>https://github.com/openpdfsaucer/openpdfsaucer</url>
+  <url>https://github.com/openpdfsaucer/openpdfsaucer/tree/main</url>
 
   <licenses>
     <license>
