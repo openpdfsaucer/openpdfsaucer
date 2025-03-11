@@ -34,6 +34,20 @@ Get OpenPDFSaucer here: https://github.com/openpdfsaucer/openpdfsaucer/releases/
 
 It is also available as a Maven module dependency: https://github.com/orgs/openpdfsaucer/packages?repo_name=openpdfsaucer  
 
+
+## Use OpenPDFSaucer as Maven dependency
+
+Add this to your pom.xml file to use the latest version of OpenPDFSaucer:
+
+```xml
+<dependency>
+    <groupId>io.github.openpdfsaucer</groupId>
+    <artifactId>openpdfsaucer-parent</artifactId>
+    <version>2.0.2</version>
+</dependency>
+```
+
+
 ## OpenPDFSaucer has these modules:
 * [Openpdf](openpdf) OpenPDF is a free Java library for creating and editing PDF files.
 * [Flying-saucer-core](flying-saucer-core) Flying Saucer is a Java library for rendering arbitrary well-formed XML (or XHTML) using CSS 2.1 for layout and formatting, output to Swing panels, PDF, and images.
