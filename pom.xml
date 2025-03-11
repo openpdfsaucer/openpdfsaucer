@@ -5,8 +5,16 @@
 
   <groupId>io.github.openpdfsaucer</groupId>
   <artifactId>openpdfsaucer-parent</artifactId>
-  <version>2.0.2-SNAPSHOT</version> 
+  <version>2.0.2</version>
   <packaging>pom</packaging>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>central</id>
+      <name>Maven Central</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </pluginRepository>
+  </pluginRepositories>
 
   <!-- please run mvn tidy:pom once in a while -->
   <name>OpenPDFSaucer - Free and Open PDF saucer toolkit library</name>
@@ -42,17 +50,17 @@
     <module>openpdf-fonts-extra</module>
     <module>flying-saucer-core</module>
     <module>flying-saucer-pdf</module>
-    <module>flying-saucer-browser</module>
+    <!-- <module>flying-saucer-browser</module> -->
     <module>PDFrenderer</module>
   </modules>
   <!-- Distribution config from http://central.sonatype.org/pages/apache-maven.html#distribution-management-and-authentication -->
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub OWNER Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/openpdfsaucer/openpdfsaucer</url>
-    </repository>
-  </distributionManagement>
+<!--  <distributionManagement>-->
+<!--    <repository>-->
+<!--      <id>github</id>-->
+<!--      <name>GitHub OWNER Apache Maven Packages</name>-->
+<!--      <url>https://maven.pkg.github.com/openpdfsaucer/openpdfsaucer</url>-->
+<!--    </repository>-->
+<!--  </distributionManagement>-->
 
 
   <properties>
@@ -79,6 +87,7 @@
     <nexus-staging-maven-plugin.version>1.7.0</nexus-staging-maven-plugin.version>
     <pitest-junit5-plugin.version>1.2.2</pitest-junit5-plugin.version>
     <pitmp-maven-plugin.version>1.3.7</pitmp-maven-plugin.version>
+    <org-sonatype-central-plugin.version>0.7.0</org-sonatype-central-plugin.version>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit.version>5.12.0</junit.version>
@@ -101,7 +110,7 @@
     <jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>
     <junit.version>5.12.0</junit.version>
     <mockito4.version>4.11.0</mockito4.version>
-    <mockito5.version>5.15.2</mockito5.version>
+    <mockito5.version>5.16.0</mockito5.version>
   </properties>
 
   <dependencyManagement>
@@ -461,6 +470,18 @@
       <id>release</id>
       <build>
         <plugins>
+          <plugin>
+            <groupId>org.sonatype.central</groupId>
+            <artifactId>central-publishing-maven-plugin</artifactId>
+            <version>${org-sonatype-central-plugin.version}</version>
+            <extensions>true</extensions>
+            <configuration>
+              <publishingServerId>central</publishingServerId>
+              <tokenAuth>true</tokenAuth>
+              <autoPublish>true</autoPublish>
+            </configuration>
+          </plugin>
+
           <!-- Create javadoc for help -->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -468,6 +489,14 @@
             <version>${maven-javadoc-plugin.version}</version>
             <configuration>
               <source>${java.version}</source>
+              <!-- Add these lines -->
+              <detectJavaApiLink>false</detectJavaApiLink>
+              <doclint>none</doclint>
+              <quiet>true</quiet>
+              <!-- This is important - tells javadoc to only use compiled classes -->
+              <includeDependencySources>false</includeDependencySources>
+              <!-- Prevent Maven from trying to download your own artifacts -->
+              <detectOfflineLinks>false</detectOfflineLinks>
             </configuration>
             <executions>
               <execution>
@@ -475,7 +504,6 @@
                 <goals>
                   <goal>jar</goal>
                 </goals>
-                <!-- Disable doclint checks to build it under java 8 javadoc -->
                 <configuration>
                   <additionalJOptions>-Xdoclint:none</additionalJOptions>
                 </configuration>
@@ -513,6 +541,12 @@
                 </goals>
               </execution>
             </executions>
+            <configuration>
+              <gpgArguments>
+                <arg>--pinentry-mode</arg>
+                <arg>loopback</arg>
+              </gpgArguments>
+            </configuration>
           </plugin>
         </plugins>
 
