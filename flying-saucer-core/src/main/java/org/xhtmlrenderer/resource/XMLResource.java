@@ -372,6 +372,8 @@ public class XMLResource extends AbstractResource {
             TransformerFactory tf = TransformerFactory.newInstance();
             try {
                 tf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
+                tf.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+                tf.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
             } catch (TransformerConfigurationException e) {
                 XRLog.init(Level.WARNING, "Problem configuring TrAX factory", e);
             }
