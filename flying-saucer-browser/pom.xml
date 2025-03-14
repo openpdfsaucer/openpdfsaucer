@@ -61,7 +61,7 @@
     <dependency>
       <groupId>jsyntaxpane</groupId>
       <artifactId>jsyntaxpane</artifactId>
-      <version>0.9.5-b29</version>
+      <version>0.9.6</version>
     </dependency>
   </dependencies>
 
