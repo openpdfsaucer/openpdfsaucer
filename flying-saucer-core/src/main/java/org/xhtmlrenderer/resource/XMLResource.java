@@ -74,7 +74,6 @@ public class XMLResource extends AbstractResource {
         super(source);
         this.document = document;
         this.elapsedLoadTime = elapsedLoadTime;
-        useHtmlUnitCyberNekoParser = true;
     }
 
     public static XMLResource load(URL source) {
