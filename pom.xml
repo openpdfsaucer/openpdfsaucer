@@ -50,7 +50,7 @@
     <module>openpdf-fonts-extra</module>
     <module>flying-saucer-core</module>
     <module>flying-saucer-pdf</module>
-    <module>flying-saucer-browser</module>
+    <!--<module>flying-saucer-browser</module>-->
     <module>PDFrenderer</module>
   </modules>
   <!-- Distribution config from http://central.sonatype.org/pages/apache-maven.html#distribution-management-and-authentication -->
