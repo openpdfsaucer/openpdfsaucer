@@ -36,6 +36,7 @@ import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.ext.EntityResolver2;
 import org.xml.sax.helpers.XMLFilterImpl;
+import org.xml.sax.helpers.XMLReaderFactory;
 
 import javax.xml.XMLConstants;
 import javax.xml.parsers.SAXParser;
@@ -64,6 +65,7 @@ import java.util.logging.Level;
 public class XMLResource extends AbstractResource {
     private static final XMLResourceBuilder XML_RESOURCE_BUILDER = new XMLResourceBuilder();
     private static final AtomicBoolean useConfiguredParser = new AtomicBoolean(true);
+    private static boolean useHtmlUnitCyberNekoParser = true;
 
     private final Document document;
     private final long elapsedLoadTime;
@@ -134,6 +136,16 @@ public class XMLResource extends AbstractResource {
                         "Could not instantiate custom XMLReader class for XML parsing: "
                                 + xmlReaderClass + ". Please check classpath. Use value 'default' in " +
                                 "FS configuration if necessary. Will now try JDK default.", ex);
+            }
+        }
+
+        xmlReaderClass = "org.htmlunit.cyberneko.parsers.SAXParser";
+        if (xmlReaderClass != null && XMLResource.useHtmlUnitCyberNekoParser) {
+            try {
+                xmlReader = XMLReaderFactory.createXMLReader(xmlReaderClass);
+            } catch (Exception ex) {
+                XMLResource.useHtmlUnitCyberNekoParser = false;
+                // no need for logging here
             }
         }
         if (xmlReader == null) {
