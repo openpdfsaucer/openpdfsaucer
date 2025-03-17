@@ -67,7 +67,7 @@ public class PdfSchema extends XmpSchema {
     /**
      * Keywords.
      */
-    public static final String KEYWORDS = "pdf:keywords";
+    public static final String KEYWORDS = "pdf:Keywords";
     /**
      * The PDF file version (for example: 1.0, 1.3, and so on).
      */
@@ -77,7 +77,6 @@ public class PdfSchema extends XmpSchema {
      */
     public static final String PRODUCER = "pdf:Producer";
     private static final long serialVersionUID = -1541148669123992185L;
-
 
     public PdfSchema() {
         super("xmlns:" + DEFAULT_XPATH_ID + "=\"" + DEFAULT_XPATH_URI + "\"");

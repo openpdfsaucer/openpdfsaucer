@@ -49,7 +49,6 @@
 
 package com.lowagie.text.xml.xmp;
 
-
 import java.util.Arrays;
 
 /**
@@ -95,7 +94,7 @@ public class DublinCoreSchema extends XmpSchema {
      */
     public static final String IDENTIFIER = "dc:identifier";
     /**
-     * An unordered array specifying the languages used in the    resource.
+     * An unordered array specifying the languages used in the resource.
      */
     public static final String LANGUAGE = "dc:language";
     /**
@@ -129,32 +128,51 @@ public class DublinCoreSchema extends XmpSchema {
     public static final String TYPE = "dc:type";
     private static final long serialVersionUID = -4551741356374797330L;
 
-
     public DublinCoreSchema() {
         super("xmlns:" + DEFAULT_XPATH_ID + "=\"" + DEFAULT_XPATH_URI + "\"");
         setProperty(FORMAT, "application/pdf");
     }
 
     /**
-     * Adds a title.
+     * Adds a title for {@link LangAlt#DEFAULT default language}.
      *
      * @param title title
      */
     public void addTitle(String title) {
-        XmpArray array = new XmpArray(XmpArray.ALTERNATIVE);
-        array.add(title);
-        setProperty(TITLE, array);
+        addTitle(LangAlt.DEFAULT, title);
     }
 
     /**
-     * Adds a description.
+     * Adds a title for specified language.
+     *
+     * @param language language
+     * @param title    title
+     */
+    public void addTitle(String language, String title) {
+        LangAlt alt = new LangAlt();
+        alt.addLanguage(language, title);
+        setProperty(TITLE, alt);
+    }
+
+    /**
+     * Adds a description for {@link LangAlt#DEFAULT default language}.
      *
      * @param desc description
      */
     public void addDescription(String desc) {
-        XmpArray array = new XmpArray(XmpArray.ALTERNATIVE);
-        array.add(desc);
-        setProperty(DESCRIPTION, array);
+        addDescription(LangAlt.DEFAULT, desc);
+    }
+
+    /**
+     * Adds a description for specified language.
+     *
+     * @param language language
+     * @param desc     description
+     */
+    public void addDescription(String language, String desc) {
+        LangAlt alt = new LangAlt();
+        alt.addLanguage(language, desc);
+        setProperty(DESCRIPTION, alt);
     }
 
     /**
@@ -167,7 +185,6 @@ public class DublinCoreSchema extends XmpSchema {
         array.add(subject);
         setProperty(SUBJECT, array);
     }
-
 
     /**
      * Adds a subject.
