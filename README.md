@@ -53,6 +53,7 @@ Add this to your pom.xml file to use the latest version of OpenPDFSaucer:
 * [Flying-saucer-browser](flying-saucer-browser) - a web browser in Java. 
 * [PDFrenderer](PDFrenderer) Java library for rendering PDF documents to the screen using Java2D.
 * [Openpdf-fonts-extra](openpdf-fonts-extra) Fonts for OpenPDF
+* [Pdf-toolbox](pdf-toolbox) PDF toolbox
 
 # Documentation
 * [JavaDoc](https://openpdfsaucer.github.io/openpdfsaucer/)
