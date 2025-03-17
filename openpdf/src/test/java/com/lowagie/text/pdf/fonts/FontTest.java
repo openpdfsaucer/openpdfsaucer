@@ -37,7 +37,7 @@ class FontTest {
 
     private static final String FONT_NAME_WITHOUT_STYLES = "non-existing-font";
 
-    private static final String FONT_NAME_WITH_STYLES = "Courier";
+    private static final String FONT_NAME_WITH_STYLES = FontFactory.HELVETICA;
 
     private static final float DEFAULT_FONT_SIZE = 16.0f;
 
