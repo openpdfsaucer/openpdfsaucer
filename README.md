@@ -22,6 +22,7 @@ Some of the features of OpenPDFSaucer include:
   text, and more.
 * Text and Font Support: You can add text to PDF documents using various fonts and styles, and extract text from PDF
   files.
+* Complex scripts: OpenPDF supports glyph laout for complex scripts, it supports DIN 91379.
 * Graphics and Images: OpenPDF supports the addition of images and graphics to PDF files.
 * Table Support: The library facilitates the creation of tables in PDF documents.
 * Encryption: You can encrypt PDF documents for security purposes.
@@ -91,8 +92,6 @@ More details: [Contributing](CONTRIBUTING.md)
 
 ### Required Dependencies
 
-We have now different versions of OpenPDFSaucer, and they require different versions of Java:
-
 - OpenPDFSaucer requires Java 21. This project is focusing on modernization and using modern technologies and APIs.
 
 ### Supporting complex glyph substitution/ Ligature substitution
@@ -103,9 +102,9 @@ details: [wiki](https://github.com/LibrePDF/OpenPDF/wiki/Multi-byte-character-la
 
 ### Supporting OpenType layout, glyph positioning, reordering and substitution
 
-OpenPDF supports OpenType layout, glyph positioning, reordering and substitution which is e.g. required for correct
+OpenPDF supports complex scripts, OpenType layout, glyph positioning, reordering and substitution which is e.g. required for correct
 positioning of accents, the rendering of non-Latin and right-to-left scripts. OpenPDF supports DIN 91379.
-See: [wiki](https://github.com/LibrePDF/OpenPDF/wiki/Accents,-DIN-91379,-non-Latin-scripts)
+See: [wiki](https://github.com/openpdfsaucer/openpdfsaucer/wiki/OpenPDF:-Accents,-DIN-91379,-non-Latin-scripts)
 
 ### Optional
 
