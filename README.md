@@ -22,7 +22,7 @@ Some of the features of OpenPDFSaucer include:
   text, and more.
 * Text and Font Support: You can add text to PDF documents using various fonts and styles, and extract text from PDF
   files.
-* Complex scripts: OpenPDF supports glyph laout for complex scripts, it supports DIN 91379.
+* Complex scripts: OpenPDF supports glyph layout for complex scripts and DIN 91379.
 * Graphics and Images: OpenPDF supports the addition of images and graphics to PDF files.
 * Table Support: The library facilitates the creation of tables in PDF documents.
 * Encryption: You can encrypt PDF documents for security purposes.
