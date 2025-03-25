@@ -52,6 +52,7 @@
     <module>flying-saucer-pdf</module>
     <module>PDFrenderer</module>
     <module>pdf-toolbox</module>
+    <!-- Next time you publish - please try to uncomment the browser (we had to comment it to be able to publish the first time) -->
     <!--<module>flying-saucer-browser</module>-->
   </modules>
   <!-- Distribution config from http://central.sonatype.org/pages/apache-maven.html#distribution-management-and-authentication -->
