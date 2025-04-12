@@ -92,7 +92,7 @@
     <org-sonatype-central-plugin.version>0.7.0</org-sonatype-central-plugin.version>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junit.version>5.12.1</junit.version>
+    <junit.version>5.12.2</junit.version>
     <slf4j.version>2.0.17</slf4j.version>
     <assertj.version>3.27.3</assertj.version>
     <pdftest.version>1.9.2</pdftest.version>
@@ -110,7 +110,7 @@
     <checkstyle.version>10.17.0</checkstyle.version>
     <hamcrest.version>3.0</hamcrest.version>
     <jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>
-    <junit.version>5.12.1</junit.version>
+    <junit.version>5.12.2</junit.version>
     <mockito4.version>4.11.0</mockito4.version>
     <mockito5.version>5.17.0</mockito5.version>
   </properties>
